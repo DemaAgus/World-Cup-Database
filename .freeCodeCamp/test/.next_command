@@ -66,3 +66,8 @@ chmod +x queries.sh
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 ./insert_data.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git init
+git checkout -b main
+git status
+git add .
